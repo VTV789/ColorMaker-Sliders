@@ -18,10 +18,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        changeColorComponent()
+        // Do any additional setup after loading the view, typically from a nib.
     }
     
-    @IBAction func changeColorComponent() {
+    @IBAction func changeColorComponent(sender: AnyObject) {
         
         let r: CGFloat = CGFloat(self.redControl.value)
         let g: CGFloat = CGFloat(self.greenControl.value)
