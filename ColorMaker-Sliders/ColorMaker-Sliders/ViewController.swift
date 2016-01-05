@@ -22,7 +22,11 @@ class ViewController: UIViewController {
     }
     @IBAction func changeColorComponent(sender: AnyObject) {
         
-        //let r:CGFloat = CGFloat(self.redController.value)
+        let r:CGFloat = CGFloat(self.redController.value)
+        let g:CGFloat = CGFloat(self.redController.value)
+        let b:CGFloat = CGFloat(self.redController.value)
+        
+        colorView.backgroundColor = UIColor(red: r, green: g, blue: b, alpha: 1)
     }
 
 }
