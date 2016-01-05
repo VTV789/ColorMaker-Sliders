@@ -49,21 +49,22 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="185" y="90" width="118" height="31"/>
                                 </variation>
+                                <connections>
+                                    <action selector="changeColorComponent:" destination="BYZ-38-t0r" eventType="valueChanged" id="hMd-yl-Lwi"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="UWx-uj-a7j">
                                 <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="185" y="150" width="118" height="31"/>
                                 </variation>
-                            </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="i5Y-QE-Ugx">
-                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="185" y="207" width="118" height="31"/>
-                                </variation>
+                                <connections>
+                                    <action selector="changeColorComponent:" destination="BYZ-38-t0r" eventType="valueChanged" id="X39-z9-K3p"/>
+                                </connections>
                             </slider>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zyk-7S-ztK">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="tintColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="80" y="304" width="240" height="240"/>
                                 </variation>
@@ -77,6 +78,15 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="i5Y-QE-Ugx">
+                                <rect key="frame" x="0.0" y="-15" width="118" height="31"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="185" y="207" width="118" height="31"/>
+                                </variation>
+                                <connections>
+                                    <action selector="changeColorComponent:" destination="BYZ-38-t0r" eventType="valueChanged" id="M2I-SX-GAr"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <variation key="default">
@@ -86,10 +96,10 @@
                                 <exclude reference="bTQ-Er-LCP"/>
                                 <exclude reference="u3d-zf-SLV"/>
                                 <exclude reference="UWx-uj-a7j"/>
-                                <exclude reference="i5Y-QE-Ugx"/>
                                 <exclude reference="zyk-7S-ztK"/>
                                 <exclude reference="a4T-qS-mgI"/>
                                 <exclude reference="aEG-LT-6hP"/>
+                                <exclude reference="i5Y-QE-Ugx"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -99,10 +109,10 @@
                                 <include reference="bTQ-Er-LCP"/>
                                 <include reference="u3d-zf-SLV"/>
                                 <include reference="UWx-uj-a7j"/>
-                                <include reference="i5Y-QE-Ugx"/>
                                 <include reference="zyk-7S-ztK"/>
                                 <exclude reference="a4T-qS-mgI"/>
                                 <exclude reference="aEG-LT-6hP"/>
+                                <include reference="i5Y-QE-Ugx"/>
                             </mask>
                         </variation>
                     </view>
