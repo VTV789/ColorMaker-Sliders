@@ -9,11 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var colorView: UIImageView!
+    
+    @IBOutlet weak var redController: UISlider!
+    @IBOutlet weak var greenController: UISlider!
+    @IBOutlet weak var blueController: UISlider!
 
     override func viewDidLoad() {
-    
-        
-     
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
     }
+    @IBAction func changeColorComponent(sender: AnyObject) {
+        
+        //let r:CGFloat = CGFloat(self.redController.value)
+    }
+
 }
 

@@ -106,6 +106,12 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="blueController" destination="i5Y-QE-Ugx" id="BA4-Xt-7ix"/>
+                        <outlet property="colorView" destination="zyk-7S-ztK" id="Qn5-Md-yO4"/>
+                        <outlet property="greenController" destination="UWx-uj-a7j" id="RFc-sM-gnw"/>
+                        <outlet property="redController" destination="u3d-zf-SLV" id="TvU-Wy-MmC"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
